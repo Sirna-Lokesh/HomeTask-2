@@ -1,12 +1,12 @@
-function rentalCarCost(d) 
+function rentalCarCost(vacationDays) 
 {
     let totalCost=d*40;
     let discount=0;
-    if(d>=7)
+    if(vacationDays>=7)
     {
        discount=50;
     }
-    else if(d>=3)
+    else if(vacationDays>=3)
     {
        discount=20;
     }

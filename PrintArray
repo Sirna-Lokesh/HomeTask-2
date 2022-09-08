@@ -1,14 +1,14 @@
-function printArray(array)
+function printArrayWithCommas(array)
 {
-    let answer=new String("");
+    let ArrayElements=new String("");
     let lengthOfArray=array.length;
     for(var i=0;i<lengthOfArray;i++)
     {
-        answer=answer+array[i];
+        ArrayElements+=array[i];
         if(i!=lengthOfArray-1)
         {
-            answer=answer+",";
+            ArrayElements=ArrayElements+",";
         }
     }
-    return answer;
+    return ArrayElements;
 }
